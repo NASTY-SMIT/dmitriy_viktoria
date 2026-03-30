@@ -61,7 +61,45 @@ function t_onFuncLoad(funcName,okFunc,time) {if(typeof window[funcName]==='funct
          type="text/javascript">window.dataLayer=window.dataLayer||[];</script>
       <script
          type="text/javascript">(function() {if((/bot|google|yandex|baidu|bing|msn|duckduckbot|teoma|slurp|crawler|spider|robot|crawling|facebook/i.test(navigator.userAgent))===false&&typeof(sessionStorage)!='undefined'&&sessionStorage.getItem('visited')!=='y'&&document.visibilityState){var style=document.createElement('style');style.type='text/css';style.innerHTML='@media screen and (min-width: 980px) {.t-records {opacity: 0;}.t-records_animated {-webkit-transition: opacity ease-in-out .2s;-moz-transition: opacity ease-in-out .2s;-o-transition: opacity ease-in-out .2s;transition: opacity ease-in-out .2s;}.t-records.t-records_visible {opacity: 1;}}';document.getElementsByTagName('head')[0].appendChild(style);function t_setvisRecs(){var alr=document.querySelectorAll('.t-records');Array.prototype.forEach.call(alr,function(el) {el.classList.add("t-records_animated");});setTimeout(function() {Array.prototype.forEach.call(alr,function(el) {el.classList.add("t-records_visible");});sessionStorage.setItem("visited","y");},400);}
-document.addEventListener('DOMContentLoaded',t_setvisRecs);}})();</script></head>
+document.addEventListener('DOMContentLoaded',t_setvisRecs);}})();</script>
+      <style>
+         /* Mobile adaptive fixes */
+         body { overflow-x: hidden; }
+         .t-records { overflow-x: hidden; }
+
+         /* rec674615770: hero section shape elements with inline font-size:70px */
+         /* "ДМИТРИЙ" */
+         @media screen and (max-width:959px) {
+            #rec674615770 .tn-elem[data-elem-id="1698666071953"] .tn-atom { font-size:55px !important; }
+         }
+         @media screen and (max-width:479px) {
+            #rec674615770 .tn-elem[data-elem-id="1698666071953"] .tn-atom { font-size:28px !important; }
+         }
+         /* "ВИКТОРИЯ" */
+         @media screen and (max-width:959px) {
+            #rec674615770 .tn-elem[data-elem-id="1698666140921"] .tn-atom { font-size:55px !important; }
+         }
+         @media screen and (max-width:479px) {
+            #rec674615770 .tn-elem[data-elem-id="1698666140921"] .tn-atom { font-size:25px !important; }
+         }
+         /* "31 | 07 | 26" date */
+         @media screen and (max-width:959px) {
+            #rec674615770 .tn-elem[data-elem-id="1698666556346"] .tn-atom { font-size:40px !important; }
+         }
+         @media screen and (max-width:479px) {
+            #rec674615770 .tn-elem[data-elem-id="1698666556346"] .tn-atom { font-size:22px !important; }
+         }
+         /* rec658630553: "31 ИЮЛЯ 2026 ГОДА" */
+         @media screen and (max-width:479px) {
+            #rec658630553 .tn-elem[data-elem-id="1698668169408"] .tn-atom { font-size:16px !important; }
+         }
+
+         /* Prevent parallax fixed background issues on mobile */
+         @media screen and (max-width:959px) {
+            .t396__carrier { background-attachment: scroll !important; }
+         }
+      </style>
+   </head>
    <body class="t-body" style="margin:0;"> <!--allrecords--> <div
          id="allrecords" class="t-records"
          data-hook="blocks-collection-content-node"
